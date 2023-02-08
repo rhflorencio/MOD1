@@ -1,0 +1,22 @@
+imagens de domínio público:
+-unsplash*
+-pexels*
+-freepik
+-rawpixel
+-libreshot
+-wikimedia commons
+
+compre o direito de imagem em:
+-istockphoto
+-depositphotos
+-shutterstock
+
+favicon:
+-baixe pronto iconarchive
+- crie em pixels favicon.cc
+-crie a partir de pre imagens, 
+textos etc favicon.io*
+
+HTML entities:w3school 
+código emojis:emojipedia
+

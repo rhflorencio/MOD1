@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mdias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Aprendendo a reproduzir áudios de duas formas</h1>
+    <ul type="disc"> <li>Primeira forma </li></ul>
+    <audio src="midia/happy-mistake.mp3" autoplay controls loop></audio>
+
+    <ul type="disc"> <li>Segunda forma</li></ul>
+    <p>Dando prioridade agora as formatações que podem ou não serem reconhecidas pelo navegador. Ordem de prioridades as tentativas.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente o seu áudio não pode ser reproduzido por este navegador, mas você poderá fazer o download através desse <a href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/midia/guanacast-33.mp3">link!</a></p>
+    </audio>
+</body>
+</html>
